@@ -1,0 +1,287 @@
+{
+  "_fv": 66,
+  "_type": "block",
+  "definition": {
+    "texture": "portableminer_main",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "portableminer:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 7.5,
+        "my": -1.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 0.0,
+        "Mz": 8.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": -0.5,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 0.5,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.5,
+        "my": 0.0,
+        "mz": 5.5,
+        "Mx": 10.5,
+        "My": 1.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 1.0,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 16.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 14.0,
+        "mz": 7.0,
+        "Mx": 8.0,
+        "My": 15.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 14.0,
+        "mz": 7.0,
+        "Mx": 14.0,
+        "My": 15.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 14.0,
+        "mz": 2.0,
+        "Mx": 9.0,
+        "My": 15.0,
+        "Mz": 7.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 14.0,
+        "mz": 8.0,
+        "Mx": 9.0,
+        "My": 15.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 0.6,
+        "mz": 11.3,
+        "Mx": 9.0,
+        "My": 16.6,
+        "Mz": 12.3,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": -0.8,
+        "mz": 11.9,
+        "Mx": 9.0,
+        "My": 1.2,
+        "Mz": 12.9,
+        "subtract": false
+      },
+      {
+        "mx": 3.7,
+        "my": 0.6,
+        "mz": 7.0,
+        "Mx": 4.7,
+        "My": 16.6,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.1,
+        "my": -0.8,
+        "mz": 7.0,
+        "Mx": 4.1,
+        "My": 1.2,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.3,
+        "my": 0.6,
+        "mz": 7.0,
+        "Mx": 13.3,
+        "My": 16.6,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.9,
+        "my": -0.8,
+        "mz": 7.0,
+        "Mx": 13.9,
+        "My": 1.2,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 0.6,
+        "mz": 2.7,
+        "Mx": 9.0,
+        "My": 16.6,
+        "Mz": 3.7,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": -0.8,
+        "mz": 2.1,
+        "Mx": 9.0,
+        "My": 1.2,
+        "Mz": 3.1,
+        "subtract": false
+      },
+      {
+        "mx": 7.5,
+        "my": 16.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 17.0,
+        "Mz": 8.5,
+        "subtract": false
+      }
+    ],
+    "name": "Portable Miner",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Satiscraftery"
+      }
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "BLOCK",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "ANVIL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "guiBoundTo": "PortableMinerGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 2,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onBlockAdded": {
+      "name": "PortableMinerBlockAdded"
+    },
+    "onTickUpdate": {
+      "name": "PortableMinerOnTickUpdate"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

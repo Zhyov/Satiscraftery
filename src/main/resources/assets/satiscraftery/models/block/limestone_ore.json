@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "satiscraftery:block/limestone_ore",
+    "particle": "satiscraftery:block/limestone_ore"
+  },
+  "render_type": "solid"
+}

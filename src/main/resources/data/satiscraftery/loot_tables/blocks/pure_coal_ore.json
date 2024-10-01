@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "satiscraftery:blocks/pure_coal_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "satiscraftery:pure_coal_ore"
+        }
+      ]
+    }
+  ]
+}

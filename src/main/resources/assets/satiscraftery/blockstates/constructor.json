@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "satiscraftery:block/constructor"
+    },
+    "facing=east": {
+      "model": "satiscraftery:block/constructor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "satiscraftery:block/constructor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "satiscraftery:block/constructor",
+      "y": 270
+    }
+  }
+}

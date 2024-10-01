@@ -1,0 +1,768 @@
+{
+  "mod_elements": [
+    {
+      "name": "Limestone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/limestone.json",
+          "src/main/java/net/mcreator/satiscraftery/item/LimestoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LimestoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/limestone_ore.json",
+          "src/main/java/net/mcreator/satiscraftery/block/LimestoneOreBlock.java",
+          "src/main/resources/assets/satiscraftery/models/item/limestone_ore.json",
+          "src/main/resources/data/satiscraftery/worldgen/configured_feature/limestone_ore.json",
+          "src/main/resources/data/satiscraftery/worldgen/placed_feature/limestone_ore.json",
+          "src/main/resources/assets/satiscraftery/blockstates/limestone_ore.json",
+          "src/main/resources/assets/satiscraftery/models/block/limestone_ore.json",
+          "src/main/resources/data/satiscraftery/neoforge/biome_modifier/limestone_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Wire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/wire.json",
+          "src/main/java/net/mcreator/satiscraftery/item/WireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Constructor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/block/ConstructorBlock.java",
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/constructor.json",
+          "src/main/resources/assets/satiscraftery/models/block/constructor.json",
+          "src/main/resources/assets/satiscraftery/models/item/constructor.json",
+          "src/main/resources/assets/satiscraftery/blockstates/constructor.json",
+          "src/main/java/net/mcreator/satiscraftery/block/entity/ConstructorBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks/Interactive"
+    },
+    {
+      "name": "ConstructorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/client/gui/ConstructorGUIScreen.java",
+          "src/main/java/net/mcreator/satiscraftery/network/ConstructorGUIButtonMessage.java",
+          "src/main/java/net/mcreator/satiscraftery/world/inventory/ConstructorGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "ConstructorProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructor_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/procedures/ConstructorProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EncasedConcrete",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "encased_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/encased_concrete.json",
+          "src/main/java/net/mcreator/satiscraftery/item/EncasedConcreteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cable",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/item/CableItem.java",
+          "src/main/resources/assets/satiscraftery/models/item/cable.json"
+        ]
+      }
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/iron_rod.json",
+          "src/main/java/net/mcreator/satiscraftery/item/IronRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Screw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/item/ScrewItem.java",
+          "src/main/resources/assets/satiscraftery/models/item/screw.json"
+        ]
+      }
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/item/IronPlateItem.java",
+          "src/main/resources/assets/satiscraftery/models/item/iron_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedIronPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_iron_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/reinforced_iron_plate.json",
+          "src/main/java/net/mcreator/satiscraftery/item/ReinforcedIronPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheHUB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hub",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/the_hub.json",
+          "src/main/java/net/mcreator/satiscraftery/block/entity/TheHUBBlockEntity.java",
+          "src/main/java/net/mcreator/satiscraftery/block/TheHUBBlock.java",
+          "src/main/resources/assets/satiscraftery/blockstates/the_hub.json",
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/the_hub.json",
+          "src/main/resources/assets/satiscraftery/models/block/the_hub.json"
+        ]
+      },
+      "path": "~/Blocks/Interactive"
+    },
+    {
+      "name": "HUBRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/recipes/hub_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HUBGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hubgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/world/inventory/HUBGUIMenu.java",
+          "src/main/java/net/mcreator/satiscraftery/network/HUBGUIButtonMessage.java",
+          "src/main/java/net/mcreator/satiscraftery/client/gui/HUBGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "HUBProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/procedures/HUBProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Satiscraftery",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satiscraftery",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "LimestoneNode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/worldgen/structure/limestone_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/template_pool/limestone_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/structure_set/limestone_node.json"
+        ]
+      },
+      "path": "~/Strctures"
+    },
+    {
+      "name": "CoalNode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/worldgen/structure/coal_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/structure_set/coal_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/template_pool/coal_node.json"
+        ]
+      },
+      "path": "~/Strctures"
+    },
+    {
+      "name": "CopperNode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/worldgen/structure/copper_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/template_pool/copper_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/structure_set/copper_node.json"
+        ]
+      },
+      "path": "~/Strctures"
+    },
+    {
+      "name": "IronNode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/worldgen/structure_set/iron_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/structure/iron_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/template_pool/iron_node.json"
+        ]
+      },
+      "path": "~/Strctures"
+    },
+    {
+      "name": "GoldNode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/worldgen/structure_set/gold_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/structure/gold_node.json",
+          "src/main/resources/data/satiscraftery/worldgen/template_pool/gold_node.json"
+        ]
+      },
+      "path": "~/Strctures"
+    },
+    {
+      "name": "Rotor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/rotor.json",
+          "src/main/java/net/mcreator/satiscraftery/item/RotorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PortableMiner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_miner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/satiscraftery/models/item/portable_miner.json",
+          "src/main/resources/assets/satiscraftery/models/block/portable_miner.json",
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/portable_miner.json",
+          "src/main/java/net/mcreator/satiscraftery/block/entity/PortableMinerBlockEntity.java",
+          "src/main/resources/assets/satiscraftery/blockstates/portable_miner.json",
+          "src/main/java/net/mcreator/satiscraftery/block/PortableMinerBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Interactive"
+    },
+    {
+      "name": "PortableMinerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_miner_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/client/gui/PortableMinerGUIScreen.java",
+          "src/main/java/net/mcreator/satiscraftery/world/inventory/PortableMinerGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Biomass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/item/BiomassItem.java",
+          "src/main/resources/assets/satiscraftery/models/item/biomass.json"
+        ]
+      }
+    },
+    {
+      "name": "LeavesBiomassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_biomass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/recipes/leaves_biomass_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Biomass"
+    },
+    {
+      "name": "WoodBiomassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_biomass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/recipes/wood_biomass_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Biomass"
+    },
+    {
+      "name": "PlankBiomassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_biomass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/recipes/plank_biomass_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Biomass"
+    },
+    {
+      "name": "PureLimestoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_limestone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_limestone_ore.json",
+          "src/main/java/net/mcreator/satiscraftery/block/PureLimestoneOreBlock.java",
+          "src/main/resources/assets/satiscraftery/models/block/pure_limestone_ore.json",
+          "src/main/resources/assets/satiscraftery/models/item/pure_limestone_ore.json",
+          "src/main/resources/assets/satiscraftery/blockstates/pure_limestone_ore.json"
+        ]
+      },
+      "path": "~/Blocks/PureOres"
+    },
+    {
+      "name": "PortableMinerBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_miner_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/procedures/PortableMinerBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/PortableMiner"
+    },
+    {
+      "name": "PureCopperOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_copper_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_copper_ore.json",
+          "src/main/java/net/mcreator/satiscraftery/block/PureCopperOreBlock.java",
+          "src/main/resources/assets/satiscraftery/models/block/pure_copper_ore.json",
+          "src/main/resources/assets/satiscraftery/models/item/pure_copper_ore.json",
+          "src/main/resources/assets/satiscraftery/blockstates/pure_copper_ore.json"
+        ]
+      },
+      "path": "~/Blocks/PureOres"
+    },
+    {
+      "name": "PureIronOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_iron_ore.json",
+          "src/main/java/net/mcreator/satiscraftery/block/PureIronOreBlock.java",
+          "src/main/resources/assets/satiscraftery/blockstates/pure_iron_ore.json",
+          "src/main/resources/assets/satiscraftery/models/item/pure_iron_ore.json",
+          "src/main/resources/assets/satiscraftery/models/block/pure_iron_ore.json"
+        ]
+      },
+      "path": "~/Blocks/PureOres"
+    },
+    {
+      "name": "PureGoldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_gold_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_gold_ore.json",
+          "src/main/resources/assets/satiscraftery/models/block/pure_gold_ore.json",
+          "src/main/resources/assets/satiscraftery/blockstates/pure_gold_ore.json",
+          "src/main/resources/assets/satiscraftery/models/item/pure_gold_ore.json",
+          "src/main/java/net/mcreator/satiscraftery/block/PureGoldOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks/PureOres"
+    },
+    {
+      "name": "PureCoalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_coal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_coal_ore.json",
+          "src/main/resources/assets/satiscraftery/models/item/pure_coal_ore.json",
+          "src/main/java/net/mcreator/satiscraftery/block/PureCoalOreBlock.java",
+          "src/main/resources/assets/satiscraftery/blockstates/pure_coal_ore.json",
+          "src/main/resources/assets/satiscraftery/models/block/pure_coal_ore.json"
+        ]
+      },
+      "path": "~/Blocks/PureOres"
+    },
+    {
+      "name": "PortableMinerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_fuel_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/procedures/PortableMinerOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/PortableMiner"
+    },
+    {
+      "name": "MainRecipeScript",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_recipe_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/procedures/MainRecipeScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/PortableMiner"
+    },
+    {
+      "name": "PortableMinerLimestoneRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_miner_limestone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/satiscraftery/procedures/PortableMinerLimestoneRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Recipes/ProcedureRecipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PortableMiner",
+      "~CUSTOM:TheHUB",
+      "~CUSTOM:Constructor",
+      "~CUSTOM:LimestoneOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:LimestoneOre"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.minefactory.limestone_ore": "Limestone Ore",
+      "item.minefactory.iron_plate": "Iron Plate",
+      "block.satiscraftery.limestone_ore": "Limestone Ore",
+      "block.satiscraftery.portable_miner": "Portable Miner",
+      "gui.satiscraftery.portable_miner_gui.button_activate": "Activate",
+      "block.satiscraftery.pure_iron_ore": "Pure Iron Ore",
+      "gui.satiscraftery.hubgui.label_the_hub": "The HUB",
+      "item.minefactory.limestone": "Limestone",
+      "item_group.miners_delight.miners_delight": "Miner\u0027s Delight",
+      "item.miners_delight.limestone": "Limestone",
+      "item.minefactory.iron_rod": "Iron Rod",
+      "block.minefactory.the_hub": "The HUB",
+      "block.satiscraftery.pure_limestone_ore": "Pure Limestone Ore",
+      "block.satiscraftery.pure_gold_ore": "Pure Gold Ore",
+      "gui.minefactory.hubgui.label_the_hub": "The HUB",
+      "item.minefactory.screw": "Screw",
+      "block.miners_delight.limestone_ore": "Limestone Ore",
+      "item.satiscraftery.screw": "Screw",
+      "block.satiscraftery.pure_copper_ore": "Pure Copper Ore",
+      "gui.minefactory.constructor_gui.label_constructor": "Constructor",
+      "item_group.satiscraftery.satiscraftery": "Satiscraftery",
+      "item.minefactory.encased_concrete": "Encased Concrete",
+      "item.minefactory.reinforced_iron_plate": "Reinforced Iron Plate",
+      "item.satiscraftery.cable": "Cable",
+      "item.minefactory.cable": "Cable",
+      "gui.satiscraftery.portable_miner_gui.label_portable_miner": "Portable Miner",
+      "item_group.minefactory.minefactory": "Minefactory",
+      "item.satiscraftery.rotor": "Rotor",
+      "item.satiscraftery.encased_concrete": "Encased Concrete",
+      "item.satiscraftery.wire": "Wire",
+      "item.satiscraftery.iron_plate": "Iron Plate",
+      "item.satiscraftery.biomass": "Biomass",
+      "block.satiscraftery.pure_coal_ore": "Pure Coal Ore",
+      "block.satiscraftery.constructor": "Constructor",
+      "block.satiscraftery.the_hub": "The HUB",
+      "gui.satiscraftery.constructor_gui.label_constructor": "Constructor",
+      "item.minefactory.wire": "Wire",
+      "item.satiscraftery.reinforced_iron_plate": "Reinforced Iron Plate",
+      "item.satiscraftery.limestone": "Limestone",
+      "item.miners_delight.wire": "Wire",
+      "block.minefactory.constructor": "Constructor",
+      "item.satiscraftery.iron_rod": "Iron Rod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "PureOres",
+            "children": []
+          },
+          {
+            "name": "Interactive",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Biomass",
+            "children": []
+          },
+          {
+            "name": "ProcedureRecipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "PortableMiner",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Strctures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "satiscraftery",
+    "modName": "Satiscraftery",
+    "version": "0.0.1",
+    "description": "Satisfactory ripoff for Minecraft",
+    "author": "Zhyov, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.satiscraftery"
+  },
+  "mcreatorVersion": 202400232117
+}

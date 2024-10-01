@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "satiscraftery:blocks/the_hub",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "satiscraftery:the_hub"
+        }
+      ]
+    }
+  ]
+}

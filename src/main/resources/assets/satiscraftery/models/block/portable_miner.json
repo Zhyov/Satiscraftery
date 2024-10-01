@@ -1,0 +1,9 @@
+{
+  "parent": "satiscraftery:custom/portableminer",
+  "textures": {
+    "all": "satiscraftery:block/portableminer_main",
+    "particle": "satiscraftery:block/portableminer_main",
+    "0": "satiscraftery:block/portableminer_main"
+  },
+  "render_type": "cutout"
+}

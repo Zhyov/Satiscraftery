@@ -1,0 +1,9 @@
+{
+  "parent": "satiscraftery:custom/constructor",
+  "textures": {
+    "all": "satiscraftery:block/constructor_main",
+    "particle": "satiscraftery:block/constructor_main",
+    "6": "satiscraftery:block/constructor_main"
+  },
+  "render_type": "solid"
+}
