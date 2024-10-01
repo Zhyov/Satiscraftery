@@ -1,0 +1,15 @@
+{
+  "_fv": 66,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:Biomass"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 120.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}

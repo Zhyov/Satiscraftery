@@ -48,7 +48,7 @@ public class PortableMinerOnTickUpdateProcedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "Fuel") == 0) {
+		}.getValue(world, BlockPos.containing(x, y, z), "Fuel") <= 0) {
 			if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == SatiscrafteryModBlocks.PURE_LIMESTONE_ORE.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					if (world instanceof ILevelExtension _ext) {
@@ -97,7 +97,7 @@ public class PortableMinerOnTickUpdateProcedure {
 							}
 							return 0;
 						}
-					}.getAmount(world, BlockPos.containing(x, y, z), 0) - 1));
+					}.getAmount(world, BlockPos.containing(x, y, z), 1) + 1));
 					_itemHandlerModifiable.setStackInSlot(1, _setstack);
 				}
 			} else {

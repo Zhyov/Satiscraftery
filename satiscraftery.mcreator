@@ -432,11 +432,11 @@
       "registry_name": "pure_limestone_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_limestone_ore.json",
           "src/main/java/net/mcreator/satiscraftery/block/PureLimestoneOreBlock.java",
+          "src/main/resources/assets/satiscraftery/blockstates/pure_limestone_ore.json",
           "src/main/resources/assets/satiscraftery/models/block/pure_limestone_ore.json",
-          "src/main/resources/assets/satiscraftery/models/item/pure_limestone_ore.json",
-          "src/main/resources/assets/satiscraftery/blockstates/pure_limestone_ore.json"
+          "src/main/resources/data/satiscraftery/loot_tables/blocks/pure_limestone_ore.json",
+          "src/main/resources/assets/satiscraftery/models/item/pure_limestone_ore.json"
         ]
       },
       "path": "~/Blocks/PureOres"
@@ -632,6 +632,16 @@
         ]
       },
       "path": "~/Recipes/ProcedureRecipes"
+    },
+    {
+      "name": "BiomassFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomass_fuel",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
